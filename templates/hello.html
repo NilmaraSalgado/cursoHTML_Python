@@ -2,7 +2,13 @@
     <head>
     </head>
     <body>
-        <h1>hello</h1>
+        
+        <h1 id="titulo"><span>Hello</span>  </h1>
+        {% for entrada in entradas %}
+        <he> {{ entrada.titulo }} </h2>
+        <p > {{ entrada.texto }}</p>  
+        {% endfor %}
+       
+       
     </body>
-
 </html>
